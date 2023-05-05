@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proflie</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"/>
+    <link
+      href="https://getbootstrap.com/docs/5.3/assets/css/docs.css"
+      rel="stylesheet"/>
+      <link rel="stylesheet" href="./style.css">
+      <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+</head>
+<body>
+    <main>
+        <div class="container py-2 px-1">
+            <header class="pb-3 mb-4 border-bottom">
+                <nav class="navbar bg-dark" data-bs-theme="dark">
+                    <div class="container-fluid">
+                      <a class="navbar-brand" href="#">
+                        <img src="./assets/—Pngtree—wounds that slowly drained blood_5775265.png" alt="Logo" width="40" height="" class="d-inline-block align-text-top">
+                        Jadee Paulse
+                      </a>
+                      <ul class="nav justify-content-end">
+                        <li class="nav-item">
+                          <a class="nav-link active link-secondary" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link link-secondary" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link link-secondary" href="#">Contact</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </nav>
+            </header>
+
+            <!-- main section/banner -->
+            <div class="p-5 mb-4 bg-body-secondary">
+                <div class="container-fluid py-5 text-center">
+                    <div>
+                        <h1 class="h1 display-5 fw-bold animate__animated animate__pulse animate__infinite">Jadee Paulse</h1>
+                        <p class="">An aspiring Web Developer</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- split ssection-->
+            <div class="row align-items-md-stretch mb-4">
+                <!-- dark side/bio -->
+                <div class="col-md-6">
+                    <div class="flip-card">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front">
+                                <div class="container-fluid  rounded-3">
+                                    <img src="./assets/C12 C1 Jadee Paulse (3).JPG" alt="front-image" width="100%" height="370px" class="me-my">
+                                </div>
+                            </div>
+                            <div class="flip-card-back">
+                                <div class="p-5 text-bg-secondary rounded-3">
+                                    <h2 class="text-decoration-underline">Bio</h2>
+                                    <p>I’m curious, and I enjoy work that challenges me to learn something new and stretch in a different direction. 
+                                        I do my best to stay on top of changes in the state of the art so that I can meet challenges with tools well 
+                                        suited to the job at hand.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- light side -->
+                <div class="col-md-6">
+                    <div class="container-fluid p-5 bg-body-secondary border rounded-3">
+                        <h2 class="text-decoration-underline">My Skills</h2>
+                        <div class="lang">
+                            <img src="./assets/css3-alt.svg" alt="css" width="50px" height="50px">CSS<br>
+                            <img src="./assets/html5.svg" alt="html" width="50px" height="50px">HTML<br>
+                            <img src="./assets/github.svg" alt="git" width="50px" height="50px">Git<br>
+                            <img src="./assets/bootstrap.svg" alt="bs" width="50px" height="50px">Bootstrap<br>
+                            <img src="" alt=""><br>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Contact form -->
+            <div class="container-fluid mx-auto text-bg-secondary p-5 border border-black border rounded-3" style="width: 900px;">
+                <form action="https://formspree.io/f/xpzekzqg" method="POST" class="contact">
+                    <legend class="text-center text-decoration-underline fw-bold mb-5">Contact Info</legend><br>
+                    <div class="row">
+                        <div class="col">
+                            <label for="first name">First name</label>
+                          <input type="text" class="form-control" placeholder="First name" aria-label="First name">
+                        </div>
+                        <div class="col">
+                            <label for="last name">Last name</label>
+                          <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+                        </div>
+                    </div>
+                    <br>
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                    </div>
+                    <br>
+                    <div class="mb-3">
+                        <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+            </div>
+
+            <!-- footer -->
+            <footer class="pt-3 mt-4 text-body-secondary  border-top">
+                <img src="./assets/facebook (1).svg" alt="fb" class="m-2" width="35px" height="35px">
+                <img src="./assets/instagram (1).svg" alt="insta" class="m-2" width="35px" height="35px">
+                <img src="./assets/twitter (1).svg" alt="twi" class="m-2" width="35px" height="35px">
+                <img src="./assets/discord.svg" alt="dis" class="m-2" width="35px" height="35px">
+                <img src="./assets/github.svg" alt="git" class="m-2" width="35px" height="35px">
+                <p class="text-center">&copy; 2023 JP</p>
+            </footer>
+        </div>
+    </main>
+</body>
+</html>

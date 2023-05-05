@@ -1,0 +1,9 @@
+<div class="p-1 mb-2 bg-body-secondary">
+                <div class="container-fluid text-md-start clearfix">
+                    <div>
+                        <!-- <img src="./assets/C12 C1 Jadee Paulse (3).JPG" alt="" width="200px" height="350px" class="float-end"> -->
+                    </div>
+                    <div>
+                        <h2 class="text-decoration-underline">Bio</h2>
+                        <p>I’m curious, and I enjoy work that challenges me to learn something new and stretch in a different direction. I do my best to stay on top of changes in the state of the art so that I can meet challenges with tools well suited to the job at hand. The list of projects I follow on GitHub will give you a good idea of the types of tools I’d prefer to be using, and my Instapaper “Starred” list will give you a glimpse into the reading material I find interesting enough to share.</p>
+                    </div>
